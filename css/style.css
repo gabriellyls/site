@@ -278,6 +278,11 @@ h6 {
   border-bottom: 3px solid #149ddd;
 }
 
+.hero .hero-container {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -433,7 +438,7 @@ section {
   border-radius: 0;
 }
 
-.skills .progress .hm {
+.skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -443,7 +448,7 @@ section {
   color: #050d18;
 }
 
-.skills .progress .hm .val {
+.skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
