@@ -130,7 +130,11 @@ h6 {
   padding-left: 30px;
   padding-right: 30px;
 }
-
+@media (max-width: 768px  ) {
+  .hero-container p span {
+    font-size: 10px;
+  }
+}
 @media (max-width: 1199px) {
   #header {
     left: -300px;
@@ -145,7 +149,10 @@ h6 {
     padding-left: 12px;
     padding-right: 12px;
   }
+
+
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
